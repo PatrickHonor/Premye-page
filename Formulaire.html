@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>fomil</title>
+  <style>
+       body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150vh;
+            background-color: #f4f4f4;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 25px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+ 
+  
+  
+  </style>
+</head>
+<body>
+ 
+   <div>
+
+<form>
+  <h4>inscription</h4>
+  <label for ="nom">nom complet :</label>
+  <input type ="text" id="nom" name="nom" required>
+  
+  <label for="text">adress :</label> 
+  <input type="text" id="adress" name="adress" required>
+  
+  <label for="email">Email :</label>
+  <input type="email">
+  
+  <label for="password">password :</label>
+  <input type="password">
+  
+  <label for="pais">choisir un pays</label>
+  <select id="pays" name="pays">
+    
+    
+    <option value="haiti">Haiti</option>
+    <option value="canada">Canada</option>
+       <option value="venezuela">venezuela</option>
+    
+    
+  </select>
+  
+ <label for="message"> message :</label>
+  <textarea id="message" name="message" rows="6" placeholder="ecrit ton message"></textarea>
+  <button type="submit">s'inscrire</button>
+          
+      <input type="time">
+     <input type="date">
+</form>
+  <br>
+  
+
+</div>
+ 
+
+  
+</body>
+</html>
+
 
